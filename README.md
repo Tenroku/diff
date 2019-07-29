@@ -1,6 +1,6 @@
 <h1 align="center"> Diff </h1>
 
-<p align="center"> 对比字符串生成差异，支持多种输出格式.</p>
+<p align="center"> 对比字符串生成差异，支持多种输出格式。</p>
 
 
 ## Installing

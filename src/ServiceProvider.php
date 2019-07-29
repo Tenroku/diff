@@ -25,4 +25,11 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         return [Diff::class, 'diff'];
     }
+
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__ . '/../config/diff.php' => config_path('diff.config'),
+        ]);
+    }
 }
