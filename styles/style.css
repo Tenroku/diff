@@ -1,0 +1,111 @@
+.diff-wrap {
+    padding: 15px;
+    border: 1px dashed #c0ced8;
+    border-radius: 4px;
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+.diff-html {
+    border: 1px solid #d3e0e9;
+    border-radius: 4px;
+}
+
+.diff-html thead {
+    display: none;
+}
+
+.diff-html {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show
+}
+
+.diff-html thead th {
+    text-align: left;
+    border-bottom: 1px solid #000;
+    background: #aaa;
+    color: #000;
+    padding: 4px
+}
+
+.diff-html tbody th {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    background: #f2faff;
+    width: 1em;
+    padding: 4px;
+    border-right: 1px solid #cbd1dc;
+    vertical-align: middle;
+    font-size: 0.9285em;
+    font-weight: 400
+}
+
+.diff-html td {
+    padding: 4px 12px;
+    font-family: Consolas, monospace;
+    font-size: 0.9285em;
+    line-height: 22px;
+    word-break: break-all
+}
+
+.diff-html.diff-side-by-side .change-ins td.old {
+    background: #dfd
+}
+
+.diff-html.diff-side-by-side .change-ins td.new {
+    background: #cfc
+}
+
+.diff-html.diff-side-by-side .change-del td.old {
+    background: #f88
+}
+
+.diff-html.diff-side-by-side .change-del td.new {
+    background: #faa
+}
+
+.diff-html.diff-side-by-side .change-rep .old {
+    background: #fe9
+}
+
+.diff-html.diff-side-by-side .change-rep .new {
+    background: #fd8
+}
+
+.diff-html del,
+.diff-html ins {
+    text-decoration: none
+}
+
+.diff-html.diff-side-by-side .change-rep del,
+.diff-html.diff-side-by-side .change-rep ins {
+    background: #fc0
+}
+
+.diff-html .skipped {
+    background: #f7f7f7
+}
+
+.diff-html.diff-inline .change-del .old,
+.diff-html.diff-inline .change-rep .old {
+    background: #fdd
+}
+
+.diff-html.diff-inline .change-ins .new,
+.diff-html.diff-inline .change-rep .new {
+    background: #dfd
+}
+
+.diff-html.diff-inline .change-rep ins {
+    background: #9e9
+}
+
+.diff-html.diff-inline .change-rep del {
+    background: #ff9f9f;
+    color: #905959
+}

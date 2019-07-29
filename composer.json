@@ -1,0 +1,26 @@
+{
+    "name": "ilaoniu/diff",
+    "description": "对比字符串生成差异，支持多种输出格式。",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ilaoniu",
+            "email": "ilaoniu@qq.com"
+        }
+    ],
+    "require": {
+        "jfcherng/php-diff": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilaoniu\\Diff\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ilaoniu\\Diff\\ServiceProvider"
+            ]
+        }
+    }
+}
