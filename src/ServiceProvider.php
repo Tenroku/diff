@@ -29,7 +29,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/diff.php' => config_path('diff.config'),
+            __DIR__ . '/../config/diff.php' => config_path('diff.php'),
         ]);
     }
 }
